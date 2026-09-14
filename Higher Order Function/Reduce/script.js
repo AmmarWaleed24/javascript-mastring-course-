@@ -21,8 +21,6 @@ let nums = [10, 20, 15, 30];
 
 //With initial value
 //accumelator = [initial value]
-
-
 let add = nums.reduce((acc, current, index, array)=>{
     console.log(`The accumelated value is:    [${acc}]`);//5
     console.log(`The Current Number is:       [${current}]`);
